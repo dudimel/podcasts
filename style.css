@@ -1,0 +1,25 @@
+body {font-family: 'Raleway', sans-serif;
+}
+
+
+ol {display: flex;
+   flex-flow: row wrap;
+   max-width: 600px;
+}
+
+li {min-width:190px;
+    margin:10px;
+    
+}
+#podcast-image:hover {
+    opacity:0;
+    
+}
+
+@media only screen and (max-width: 480px) {
+  #podcast-image {
+    width: 300px;
+  }
+
+}
+
